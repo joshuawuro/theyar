@@ -4,16 +4,28 @@ function TestimonialsSection() {
   return (
     <section className="bg-white text-center py-20 px-6 my-10 font-poppins">
       <div className="my-5">
-        <h2 className="text-yellow-400 text-2xl font-semibold mb-4 tracking-wide">
+        <h2
+          className="text-yellow-400 text-2xl font-semibold mb-4 tracking-wide"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+        >
           MEMBER TESTIMONIALS
         </h2>
-        <p className="text-blue text-lg mb-14 max-w-3xl mx-auto">
+        <p
+          className="text-blue text-lg mb-14 max-w-3xl mx-auto"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+        >
           Hear what our members are saying about the impact this ministry is
           making in their lives.
         </p>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto ">
+      <div
+        className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto"
+        data-aos="fade-up"
+        data-aos-duration="1200"
+      >
         {testimonialData.map((item, index) => (
           <div
             key={index}

@@ -3,13 +3,27 @@ function MessageSection() {
     <section className="py-16 px-6 font-poppins text-center">
       <div className="max-w-4xl mx-auto">
         {/* Text Content */}
-        <h2 className="text-orange text-xl font-semibold mb-2">THE MESSAGE</h2>
-        <p className="text-strokegray mb-6">
+        <h2
+          className="text-orange text-xl font-semibold mb-2"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+        >
+          THE MESSAGE
+        </h2>
+        <p
+          className="text-strokegray mb-6"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+        >
           Message from the Papa of the House
         </p>
 
         {/* Responsive Video */}
-        <div className="aspect-video rounded-xl overflow-hidden">
+        <div
+          className="aspect-video rounded-xl overflow-hidden"
+          data-aos="fade-up"
+          data-aos-duration="1200"
+        >
           <iframe
             className="w-full h-full"
             src="https://www.youtube.com/embed/UXRvEkVZiLk"
