@@ -2,18 +2,33 @@ import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { AiOutlineClose } from "react-icons/ai";
 import bibleImage from "../assets/bible.jpg";
+import LivePopupModal from "./LivePopupModal"; // Import the alternate component
 import "../index.css";
 
 function PopupModal() {
   const [showModal, setShowModal] = useState(false);
+  const [isLiveHour, setIsLiveHour] = useState(false);
 
   useEffect(() => {
+    // Show popup after 3 seconds
     const timer = setTimeout(() => setShowModal(true), 3000);
+
+    // Check current hour in GMT
+    const now = new Date();
+    const hour = now.getUTCHours(); // getUTCHours returns hour in GMT
+    setIsLiveHour(hour === 5); // 5:00 - 5:59 AM GMT
+
     return () => clearTimeout(timer);
   }, []);
 
   if (!showModal) return null;
 
+  // Show the LivePopupModal if it's between 5:00 and 6:00 AM GMT
+  if (isLiveHour) {
+    return <LivePopupModal />;
+  }
+
+  // Default popup
   return (
     <div
       className="fixed inset-0 z-50 flex items-center justify-center bg-black/80 animate-fade-in"
@@ -43,7 +58,6 @@ function PopupModal() {
             <AiOutlineClose />
           </button>
 
-          {/* <h2 className="text-4xl font-bold mb-2 text-white">YAR</h2> */}
           <a href="#" className="text-yellow-300 text-lg font-bold uppercase">
             Have you read your <br /> Bible today?
           </a>
