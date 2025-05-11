@@ -6,7 +6,7 @@ function StatsSection() {
   const { ref, inView } = useInView({ triggerOnce: true });
 
   return (
-    <section className="bg-blue text-white py-16 lg:py-24">
+    <section className="bg-blue text-white py-16 lg:py-24 font-poppins">
       <div className="container mx-auto px-6 lg:px-12" ref={ref}>
         <div className="flex flex-col md:flex-row justify-center gap-12 lg:gap-32 text-center">
           {/* Stat 1 */}
