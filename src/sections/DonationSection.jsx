@@ -1,6 +1,6 @@
 function DonationSection() {
   return (
-    <section className="bg-gradient-to-b from-black via-gray-900 to-black text-white py-20 px-6 text-center font-poppins relative">
+    <section className="bg-gradient-to-b from-black via-gray-900 to-black text-white py-20 px-6 text-center  relative">
       <h4
         className="text-yellow-400 mb-2 uppercase tracking-wider"
         data-aos="fade-up"
@@ -13,7 +13,7 @@ function DonationSection() {
         data-aos="fade-up"
         data-aos-duration="1000"
       >
-        MAKE A DONATION
+        GIVING IS AN ACT OF FAITH
       </h2>
       <p
         className="max-w-3xl mx-auto mb-8 text-gray-300"

@@ -2,7 +2,7 @@ import AboutImage from "../../assets/bgimage.png";
 
 function VisionSection() {
   return (
-    <section className="py-16 px-6 md:px-20 bg-white font-poppins">
+    <section className="py-16 px-6 md:px-20 bg-white ">
       <h2 className="text-yellow-500 text-2xl font-bold text-center mb-12 uppercase">
         Our Vision
       </h2>

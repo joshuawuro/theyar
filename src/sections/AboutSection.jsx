@@ -3,7 +3,7 @@ import AboutImage from "../assets/bgimage.png";
 
 function AboutSection() {
   return (
-    <section className="px-6 lg:px-24 py-20 lg:py-32 bg-white font-poppins">
+    <section className="px-6 lg:px-24 py-20 lg:py-32 bg-white">
       <h2
         className="text-center text-3xl md:text-4xl font-bold text-orange mb-12 md:my-12"
         data-aos="fade-up"
@@ -45,11 +45,11 @@ function AboutSection() {
             and testimonies.
           </p>
           <button
-            className="bg-orange hover:bg-yellow-400 text-white font-semibold py-2 px-5 rounded"
+            className="bg-orange hover:bg-yellow-400 text-white font-semibold py-2 px-5 rounded-full"
             data-aos="fade-up"
             data-aos-duration="2500"
           >
-            <Link to="/about">Learn More</Link>
+            <Link to="/about">Know more about us</Link>
           </button>
         </div>
       </div>

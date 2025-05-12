@@ -3,7 +3,7 @@ import { teamMembers, groupLeaders } from "../../data/teamPageData";
 
 function TeamSection() {
   return (
-    <section className="max-w-7xl mx-auto py-16 px-6 md:px-20 font-poppins">
+    <section className="max-w-7xl mx-auto py-16 px-6 md:px-20 ">
       {/* Main Team Section */}
       <div className="text-center mb-14">
         <h2 className="text-3xl text-blue md:text-4xl font-bold mb-4">

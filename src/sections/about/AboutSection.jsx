@@ -1,6 +1,6 @@
 function AboutSection() {
   return (
-    <section className="py-16 px-6 md:px-20 bg-white text-center font-poppins">
+    <section className="py-16 px-6 md:px-20 bg-white text-center ">
       <h2 className="text-yellow-500 text-2xl font-bold mb-6 uppercase">
         About Us
       </h2>

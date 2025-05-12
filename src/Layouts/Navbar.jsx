@@ -3,6 +3,7 @@ import { Link, NavLink } from "react-router-dom";
 import { FaBars, FaTimes } from "react-icons/fa";
 
 function Navbar() {
+  const telegramlink = "https://t.me/yardpm2024";
   const [isOpen, setIsOpen] = useState(false);
 
   const navLinks = [
@@ -15,7 +16,7 @@ function Navbar() {
 
   return (
     <>
-      <nav className="bg-blue font-poppins shadow-md sticky top-0 z-50">
+      <nav className="bg-blue shadow-md sticky top-0 z-50 font-kumbh-sans">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-5">
           <div className="flex justify-between h-16 items-center">
             {/* Logo */}
@@ -50,10 +51,10 @@ function Navbar() {
             {/* Desktop Join Us */}
             <div className="hidden md:block">
               <a
-                href="https://t.me/yardpm2024"
+                href={telegramlink}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-blue-600 text-xl text-white font-medium px-4 py-2 rounded-xl hover:bg-blue-700 hover:text-orange transition"
+                className="bg-orange text-xl text-blue font-bold px-5 py-2 rounded-full shadow-md hover:shadow-lg hover:bg-yellow-500 transition"
               >
                 Join Us
               </a>
@@ -111,7 +112,7 @@ function Navbar() {
               </NavLink>
             ))}
             <a
-              href="https://t.me/yardpm2024"
+              href={thetelegramlink}
               target="_blank"
               rel="noopener noreferrer"
               onClick={() => setIsOpen(false)}

@@ -10,7 +10,7 @@ import {
 
 function Footer() {
   return (
-    <footer className="bg-blue font-poppins text-white px-6 py-10 lg:px-24">
+    <footer className="bg-blue  text-white px-6 py-10 lg:px-24">
       <div className="flex flex-col md:flex-row md:justify-between gap-12">
         {/* Branding */}
         <div>

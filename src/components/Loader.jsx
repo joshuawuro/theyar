@@ -1,11 +1,12 @@
-function Loader() {
+import "../styles/Loader.css";
+
+const Loader = () => {
   return (
-    <div className="flex flex-row gap-2">
-      <div className="w-4 h-4 rounded-full bg-blue animate-bounce" />
-      <div className="w-4 h-4 rounded-full bg-blue animate-bounce [animation-delay:-.3s]" />
-      <div className="w-4 h-4 rounded-full bg-blue animate-bounce [animation-delay:-.5s]" />
+    <div className="loader-container">
+      <div className="spinner"></div>
+      {/* <p>Loading...</p> */}
     </div>
   );
-}
+};
 
 export default Loader;

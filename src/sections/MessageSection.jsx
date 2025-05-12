@@ -1,6 +1,6 @@
 function MessageSection() {
   return (
-    <section className="py-16 px-6 font-poppins text-center">
+    <section className="py-16 px-6  text-center">
       <div className="max-w-4xl mx-auto">
         {/* Text Content */}
         <h2

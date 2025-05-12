@@ -1,6 +1,6 @@
 function BibleQuoteSection() {
   return (
-    <section className="bg-blue py-20 px-6 md:px-12 font-poppins">
+    <section className="bg-blue py-20 px-6 md:px-12 ">
       <div
         className="max-w-4xl mx-auto"
         data-aos="fade-up"

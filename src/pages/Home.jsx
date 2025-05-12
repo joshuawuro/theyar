@@ -10,6 +10,8 @@ import TeamSection from "../sections/TeamSection";
 import TestimonialsSection from "../sections/TestimonialsSection";
 import DonationSection from "../sections/DonationSection";
 import PopupModal from "../components/PopupModal";
+import ContactSection from "../sections/ContactSection";
+import FAQ from "../components/FAQ";
 
 function Home() {
   useEffect(() => {
@@ -28,6 +30,8 @@ function Home() {
       <MessageSection />
       <TeamSection />
       <TestimonialsSection />
+      <FAQ />
+      <ContactSection />
       <DonationSection />
     </>
   );
