@@ -112,7 +112,7 @@ function Navbar() {
               </NavLink>
             ))}
             <a
-              href={thetelegramlink}
+              href={telegramlink}
               target="_blank"
               rel="noopener noreferrer"
               onClick={() => setIsOpen(false)}
