@@ -1,23 +1,16 @@
-function MessageSection() {
+function PodcastHighlight() {
   const youtubeLink = "https://www.youtube.com/embed/UXRvEkVZiLk";
   return (
-    <section className="py-16 px-6  text-center">
+    <section className="py-16 px-6  text-center bg-blue">
       <div className="max-w-4xl mx-auto">
         {/* Text Content */}
         <h2
-          className="text-orange text-xl font-semibold mb-2"
+          className="text-orange text-2xl font-semibold mb-10 uppercase"
           data-aos="fade-up"
           data-aos-duration="1000"
         >
-          THE MESSAGE
+          our latest podcast
         </h2>
-        <p
-          className="text-strokegray mb-6"
-          data-aos="fade-up"
-          data-aos-duration="1000"
-        >
-          Message from the Papa of the House
-        </p>
 
         {/* Responsive Video */}
         <div
@@ -40,4 +33,4 @@ function MessageSection() {
   );
 }
 
-export default MessageSection;
+export default PodcastHighlight;

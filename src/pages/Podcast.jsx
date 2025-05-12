@@ -1,4 +1,7 @@
 import { useEffect } from "react";
+import Header from "../sections/podcast/Header";
+import InspirationSection from "../sections/podcast/InspirationSection";
+import PodcastHighlight from "../sections/podcast/PodcastHighlight";
 
 function Podcast() {
   useEffect(() => {
@@ -6,7 +9,9 @@ function Podcast() {
   }, []);
   return (
     <>
-      <h2>Podcasts</h2>
+      <Header />
+      <InspirationSection />
+      <PodcastHighlight />
     </>
   );
 }
