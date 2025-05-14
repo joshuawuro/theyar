@@ -8,6 +8,7 @@ import Team from "./pages/Team.jsx";
 import Podcast from "./pages/Podcast.jsx";
 import NotFound from "./pages/NotFound.jsx";
 import AppLayout from "./Layouts/AppLayout.jsx";
+import Contact from "./pages/Contact.jsx";
 
 const router = createBrowserRouter([
   {
@@ -16,6 +17,7 @@ const router = createBrowserRouter([
     children: [
       { path: "/", element: <Home /> },
       { path: "/about", element: <About /> },
+      { path: "/contact", element: <Contact /> },
       { path: "/team", element: <Team /> },
       { path: "/podcast", element: <Podcast /> },
       { path: "*", element: <NotFound /> },

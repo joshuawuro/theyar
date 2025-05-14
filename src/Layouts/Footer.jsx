@@ -54,27 +54,27 @@ function Footer() {
           <h4 className="text-lg font-semibold text-orange mb-4">MAIN MENU</h4>
           <ul className="space-y-2 font-medium">
             <li>
-              <Link to="/" className="hover:underline">
+              <Link to="/" className="hover:text-orange">
                 HOME
               </Link>
             </li>
             <li>
-              <Link to="/about" className="hover:underline">
+              <Link to="/about" className="hover:text-orange">
                 ABOUT
               </Link>
             </li>
             <li>
-              <Link to="/contact" className="hover:underline">
+              <Link to="/contact" className="hover:text-orange">
                 CONTACT
               </Link>
             </li>
             <li>
-              <Link to="/podcast" className="hover:underline">
+              <Link to="/podcast" className="hover:text-orange">
                 PODCAST
               </Link>
             </li>
             <li>
-              <Link to="/team" className="hover:underline">
+              <Link to="/team" className="hover:text-orange">
                 TEAM
               </Link>
             </li>
