@@ -2,7 +2,7 @@ import prayer from "../../assets/prayer.png";
 
 function Header() {
   return (
-    <header className="relative h-[80vh] w-full ">
+    <header className="relative h-[50vh] w-full ">
       <div className="w-full h-full bg-blue opacity-25 absolute z-10"></div>
       {/* Background Image */}
       <img
