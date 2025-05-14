@@ -4,7 +4,7 @@ function ContactForm() {
   const [subject, setSubject] = useState("");
 
   return (
-    <div className="bg-blue p-8 rounded-lg shadow-lg space-y-6 w-2/3">
+    <div className="bg-blue p-8 rounded-lg shadow-lg space-y-6 ">
       <p className="text-white mb-10">
         Great! We're excited to hear from you and let's start something special
         together. Call us for any inquiry.
