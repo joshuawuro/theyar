@@ -34,7 +34,7 @@ function AboutSection() {
             WELCOME TO YOUNG AND READY DAWN PRAYERS
           </h3>
           <p
-            className="text-strokegray mb-6 leading-relaxed max-w-prose text-base lg:text-lg"
+            className="text-gray-700 mb-6 leading-relaxed max-w-prose text-base lg:text-lg"
             data-aos="fade-up"
             data-aos-duration="2100"
           >

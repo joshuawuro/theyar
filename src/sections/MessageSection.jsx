@@ -12,7 +12,7 @@ function MessageSection() {
           THE MESSAGE
         </h2>
         <p
-          className="text-strokegray mb-6"
+          className="text-gray-700 mb-6"
           data-aos="fade-up"
           data-aos-duration="1000"
         >
