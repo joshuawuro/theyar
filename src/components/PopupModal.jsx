@@ -75,15 +75,15 @@ function PopupModal() {
           </p>
 
           <blockquote className="italic my-4 text-sm md:text-xl leading-relaxed">
-            “More than a mere wish, you exist. Deeper than a conviction, you are
-            my description. As the deer pants for waters, my soul pants after
-            you. In the race of life, I ask for grace for life. To the God of
-            all grace, I pray for all grace. In this month of all grace, I shall
-            declare; I am graced. I am favored. I am chosen. My spot is secured.
-            My life is complete. My destiny is fulfilled. I see grace this
-            morning. I walk with grace in the afternoon. I extend grace in the
-            evening. To see me is to see GRACE. May! My month of ALL GRACE
-            AYAYAYAYAYAYAYAYAY!”
+            “A sound beckons. A voice shouts yet in stillness. A man speaks so
+            loud yet so calm. The master calleth You have always wanted to have
+            fellowship with me. And Yes you have made it all possible for me to
+            hear you. In my time of waiting on you, you have come to speak.
+            Therefore; In this month of hearing, I shall declare; I am a servant
+            of God I am God's sheep My ears are given to my Lord My ears are
+            given to my Master Because you are my shepherd, when you speak I
+            listen, when I listen I hear, when I hear I follow and when I follow
+            I become a true son Juneeeeee; my month of hearing”
           </blockquote>
 
           {/* Current Date Display */}
