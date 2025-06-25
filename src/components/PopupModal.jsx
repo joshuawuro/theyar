@@ -71,7 +71,8 @@ function PopupModal() {
           </button>
 
           <p className="text-orange text-lg font-bold uppercase underline">
-            Declaration for the month
+            {/* Declaration for the month */}
+            June Declaration
           </p>
 
           <blockquote className="italic my-4 text-sm md:text-xl leading-relaxed">
