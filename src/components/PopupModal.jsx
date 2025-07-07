@@ -71,20 +71,24 @@ function PopupModal() {
           </button>
 
           <p className="text-orange text-lg font-bold uppercase underline">
-            {/* Declaration for the month */}
-            June Declaration
+            DECLARATION FOR THE MONTH OF JULY!
           </p>
 
           <blockquote className="italic my-4 text-sm md:text-xl leading-relaxed">
-            “A sound beckons. A voice shouts yet in stillness. A man speaks so
-            loud yet so calm. The master calleth You have always wanted to have
-            fellowship with me. And Yes you have made it all possible for me to
-            hear you. In my time of waiting on you, you have come to speak.
-            Therefore; In this month of hearing, I shall declare; I am a servant
-            of God I am God's sheep My ears are given to my Lord My ears are
-            given to my Master Because you are my shepherd, when you speak I
-            listen, when I listen I hear, when I hear I follow and when I follow
-            I become a true son Juneeeeee; my month of hearing”
+            “And it was good - says your word concerning everything you did. All
+            you do are perfectly excellent, flawlessly unique and beautifully
+            magnificent. Nothing you ever made has ever needed an upgrade.
+            Everything you made has only been perfect encapsulating the
+            understanding of creature. You created me however with the same
+            identity, the same nature and the same Spirit. I am excellent by
+            making, perfect by destiny and examplary by requirement. As you are
+            so am I in this world. Therefore I shall declare; I am excecellent.
+            I walk, talk, think and act in excellence I declare, my default
+            nature is excellence. My going out is excellent. My coming in is
+            excellent. My thought parttens are excellent. My love for God is
+            excellent. I shun anything short of excellence. My light so shines
+            in this dark world. Jesus is glorified because of my excellent way
+            of life. JULLLYYYYYYYYY: MY MONTH OF EXCELLENCE!❤️✨”
           </blockquote>
 
           {/* Current Date Display */}
